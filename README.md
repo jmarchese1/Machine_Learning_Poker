@@ -1,4 +1,4 @@
-#Poker AI – Towards AlphaZero for Heads-Up Hold'em ♠️♥️
+# Poker AI – Towards AlphaZero for Heads-Up Hold'em ♠️♥️
 
 This project is an experimental journey to build a poker AI capable of consistently beating real players in heads-up No Limit Texas Hold’em. Inspired by AlphaZero, the ultimate goal is to create an agent that not only plays optimally using card and pot odds but also learns to read and adapt to opponents’ specific tendencies and play styles.
 
@@ -17,20 +17,17 @@ Every hand’s data is logged into a structured Pandas DataFrame: board state, p
 
 After thousands of hands, this dataset is passed into deep learning models to:
 
-Identify high-value patterns and strategic behaviors.
-
-Model opponent types based on historical actions.
-
-Move toward Game Theory Optimal (GTO) and exploitative strategies.
+- Identify high-value patterns and strategic behaviors.
+- Model opponent types based on historical actions.
+- Move toward Game Theory Optimal (GTO) and exploitative strategies.
 
 🎯 Final Objective
+
 To develop an AI agent that mirrors the strategic dominance of AlphaZero in chess—but for poker. This includes:
 
-Consistently making mathematically sound decisions.
-
-Adapting dynamically to different player archetypes.
-
-Modeling opponents in real-time and exploiting weaknesses.
+- Consistently making mathematically sound decisions.
+- Adapting dynamically to different player archetypes.
+- Modeling opponents in real-time and exploiting weaknesses.
 
 🚧 Requirements
 Python 3.8+
