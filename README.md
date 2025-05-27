@@ -1,4 +1,4 @@
-# Poker AI – Towards AlphaZero for Heads-Up Hold'em ♠️♥️
+# Poker AI for Heads-Up Hold'em ♠️♥️
 
 This project is an experimental journey to build a poker AI capable of consistently beating real players in heads-up No Limit Texas Hold’em. Inspired by AlphaZero, the ultimate goal is to create an agent that not only plays optimally using card and pot odds but also learns to read and adapt to opponents’ specific tendencies and play styles.
 
