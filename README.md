@@ -1,16 +1,18 @@
-Poker AI – Towards AlphaZero for Heads-Up Hold'em ♠️♥️
+#Poker AI – Towards AlphaZero for Heads-Up Hold'em ♠️♥️
+
 This project is an experimental journey to build a poker AI capable of consistently beating real players in heads-up No Limit Texas Hold’em. Inspired by AlphaZero, the ultimate goal is to create an agent that not only plays optimally using card and pot odds but also learns to read and adapt to opponents’ specific tendencies and play styles.
 
-🔍 Overview
+🔍 Overview:
 The repository includes two main AI training approaches:
 
-ChatGPT Simulation (API-Driven)
+1. ChatGPT Simulation (API-Driven)
 Using OpenAI's API, the AI plays thousands of games against itself. ChatGPT makes all in-game decisions (fold, call, raise) based on context: hole cards, community cards, stack sizes, betting history, and more.
 
-From-Scratch Reinforcement Engine
+2. From-Scratch Reinforcement Engine
 An organic simulation loop where the AI initially selects actions randomly. As results accumulate, they’re stored in a Pandas DataFrame and analyzed over time to inform future decisions based on hand strength, position, and outcomes.
 
-🧠 Learning Process
+🧠 Learning Process:
+
 Every hand’s data is logged into a structured Pandas DataFrame: board state, player hands, stack sizes, betting history, action taken, and win/loss outcome.
 
 After thousands of hands, this dataset is passed into deep learning models to:
@@ -37,8 +39,4 @@ pandas, numpy
 
 OpenAI API key (for ChatGPT simulations)
 
-📈 Status
-✅ Self-play loop implemented
-✅ Game logging into DataFrame
-🚧 Model training on hand history (in progress)
-🚧 Opponent modeling engine (coming soon)
+
